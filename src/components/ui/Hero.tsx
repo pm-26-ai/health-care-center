@@ -30,7 +30,7 @@ const Hero: React.FC<HeroProps> = ({
         <div className="absolute inset-0 bg-blue-900/70"></div>
       </div> */}
       <video autoPlay muted loop id="myVideo" className="absolute">
-        <source src="./dist/assets/hero-video.mov" type="video/mp4" />
+        <source src="/hero-video.mp4" type="video/mp4" />
       </video>
 
       {/* Content */}
